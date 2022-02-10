@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Settings</title>
+	
+	<style type="text/css">
+
+		div {
+			text-align: center;
+			padding-top: 20px;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		body, html {
+		    height: 80%;
+		    display: -webkit-box;
+		    display: -moz-box;
+		    display: -ms-flexbox;
+		    display: -webkit-flex;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    background-color: #202124;
+		}
+
+		button {
+			display: flex;
+			margin: 0 auto;
+			align-items: center;
+			margin-top: 15px;
+
+			padding: 8px;
+			color: black;
+			background-color: cyan;
+			border-radius: 14px;
+			border: none;
+			outline: none;
+
+		}
+
+
+		button:hover {
+			opacity: 0.7;
+		}
+
+		.fuck-css {
+		  width: 320px;
+		  padding: 10px;
+		  border: 5px solid limegreen;
+		  position: fixed;
+		  left: 50px;
+		  top: 50px;
+		}
+
+
+
+	</style>
+
+</head>
+<body>
+	<% var success; %>
+
+	<form action="/" id="discord_token" method="POST">
+		<div>
+
+		<p style="color: green;"><%= success %></p>
+
+			<input required class="token" type="text" placeholder="Discord Token" name="token">
+		</div>
+		<div>
+			<input required type="text" name="userid" placeholder="UserID">
+		</div>
+		<div>
+			<input required type="text" name="lang" placeholder="Language">
+			<button id="lang" type="submit" value="send" class="lang-button">Submit</button>
+		</div>
+	</form>
+
+	<div class="fuck-css">
+		<p style="color: cyan;">(Video not by me) How to find ur discord token <a style="color: red;" href="https://www.youtube.com/watch?v=TFUG3Tx50bY">HERE</a></p>
+
+		<p style="color: cyan;">To see available Language ISO Codes click&nbsp;&nbsp;<a style="color: red;" href="https://docs.oracle.com/cd/E13214_01/wli/docs92/xref/xqisocodes.html" target="_blank"><p2>HERE.</p2></a> USE THE LOWERCASE ONES! (Scroll down a bit) to ISO-639 Language Codes with 2 letters.</p>
+
+		<p style="color: cyan;">How to get ur user ID <a style="color: red;" href="https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-">Click me .-.</a></p>
+
+		<p style="color: cyan;">Great CSS skills right? so beutiful...</p>
+	</div>
+	
+</body>
+</html>
