@@ -16,7 +16,7 @@ npm i @vitalets/google-translate-api
 
 Automatic installation: 
 ```
-wget https://github.com/Lz4Lz/DiscordLang/blob/main/setup.sh
+wget https://raw.githubusercontent.com/Lz4Lz/DiscordLang/main/setup.sh
 chmod u+x setup.sh
 ./setup.sh
 ```
