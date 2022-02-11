@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 git clone https://github.com/Lz4Lz/DiscordLang.git
 cd DiscordLang
