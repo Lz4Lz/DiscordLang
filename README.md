@@ -17,8 +17,7 @@ npm i @vitalets/google-translate-api
 Automatic installation: 
 ```
 wget https://github.com/Lz4Lz/DiscordLang/blob/main/setup.sh
-
-chmod u+x setup.sh if u need that
+chmod u+x setup.sh
 ./setup.sh
 ```
 Not tested on Windows but will prob work.
@@ -27,7 +26,7 @@ You will see something like this on port 3000
 
 ![image](https://user-images.githubusercontent.com/59481770/153628240-1e40e7cf-e571-47ba-9673-d137d909b3b8.png)
 
-Token, UserID, Language.
+User Token, UserID, Language.
 
-Languages only supports ISO-639 format
+Languages only supports ISO-639 format, example 'ru' (Russian), 'en' (English), 'ja' (Japanese) etc
 
