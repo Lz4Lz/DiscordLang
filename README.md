@@ -1,4 +1,8 @@
 # DiscordLang
+
+***OUTDATED*** New version soon, without using discord.js or any translating package which was stupid
+
+
 Edits all the messages you / or a friend sent to a language of your choice.
 To prank your non existant friends or something idk saw this on youtube a year ago but forgot what the video was called so i thought id make my own version.
 
